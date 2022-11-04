@@ -1,0 +1,348 @@
+#upper-homepage, #interests-section, #blog-header, .accordion-item {
+    background-color: #51B07A;
+}
+
+#tabs a {
+    text-decoration: none;
+    color: white;
+}
+
+#tabs a:hover {
+    color: black;
+}
+
+#tabs {
+    padding-bottom: 1%;
+
+}
+
+.centered-tabs {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+* {
+    font-family: 'Spline Sans Mono', monospace;
+}
+
+#info-and-img {
+    background-color: #E1F8EC;
+}
+
+#quick-info {
+    text-align: justify;
+    padding: 10%;
+}
+
+#img-section {
+    background-color: #E1F8EC;
+    padding-bottom: 10%;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    height: 60%;
+}
+
+#my-image {
+    border: 5px solid #51B07A;
+    border-radius: 15px;
+    box-shadow: 3px 3px 4px grey;
+}
+
+.text-center {
+    margin: 0 auto;
+}
+
+#interest-tabs div {
+    padding: 3%;
+}
+
+#interest-tabs {
+    padding-bottom: 10%;
+}
+
+#interest-tabs button {
+    height: 40px;
+    width: 60%;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 3px 3px 4px black;
+}
+
+#interest-tabs div {
+    border: none;
+}
+
+.reveal {
+    position: relative;
+    transform: translateY(30px);
+    opacity: 0;
+    transition: all 1s ease;
+}
+
+.reveal.active {
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+#interests-header {
+    color:white;
+    padding: 5%;
+    padding-top: 10%;
+    text-align: center;
+}
+
+#blog-page {
+    background-color: #E1F8EC;
+    padding: 10%;
+}
+
+.container {
+    background-color: white;
+    border-radius: 10px;
+}
+
+.post-cover {
+    width: 100%;
+    border-radius: 20px;
+    padding: 5%;
+}
+
+.post-title {
+    padding: 8%;
+    padding-bottom: 0px;
+    padding-top: 1%;
+}
+
+.post-text {
+    padding: 8%;
+    padding-top: 0px;
+}
+
+.img-source {
+    padding: 8%;
+    padding-top: 0px;
+}
+
+.img-source a {
+    color: black;
+}
+
+#back-button {
+    text-decoration: none;
+    color: white;
+    margin: 10%;
+    font-size: 22px;
+}
+
+#about-me-img {
+    width: 80%;
+    padding: 5%;
+}
+
+#about-me-text {
+    padding: 11%;
+    font-size: 27px;
+    color: white;
+}
+
+#contact-header {
+    background-color: #51B07A;
+    padding: 5%;
+}
+
+#contact-box {
+    background-color: white;
+    border-radius: 15px;
+}
+
+#contact-text {
+    padding: 15%;
+}
+
+#back-button:hover {
+    color: black;
+}
+
+#footer {
+    padding:6%;
+    background-color: black;
+    color: white;
+}
+
+.accordion-body {
+    color: white;
+    font-size: 18px;
+}
+
+.accordion-body a {
+    text-decoration: none;
+    color: white;
+}
+
+.accordion-body a:hover {
+    text-decoration: underline;
+}
+
+@media only screen and (min-width: 1000px) {
+
+    .centered-tabs {
+        font-size: 20px;
+    }
+
+    #home-header {
+        padding: 1%;
+    }
+
+    #home-header-img {
+        width: 25%;
+        height: 25%;
+    }
+
+    .center {
+        display: block;
+        margin-right: 70%;
+    }
+
+    #my-image {
+        width: 300px;
+        height: 300px;
+        position: absolute;
+        top: 335px;
+        bottom: 0;
+        left: 800px;
+        padding-bottom: 0px;
+        padding-top: 0px;
+    }
+
+    #quick-info {
+        width: 60%;
+        font-size: 25px;
+        padding-top: 130px;
+        padding-left: 200px;
+        padding-bottom: 0px;
+    }
+
+    #interests-header {
+        padding-top: 5%;
+        padding-bottom: 2%;
+        font-size: 25px;
+    }
+
+    #interest-tabs button {
+        height: 50px;
+        width: 20%;
+        border: none;
+        border-radius: 20px;
+        box-shadow: 3px 3px 4px black;
+        font-size: 20px;
+    }
+
+    #interest-tabs {
+        padding-bottom: 5%;
+    }
+
+    #interest-tabs div {
+        padding: 10px;
+    }
+
+    #footer {
+        padding: 3%;
+        padding-left: 5%;
+    }
+
+    .accordion-body {
+        text-align: center;
+    }
+
+
+    /* blog page */
+
+    #blog-header img {
+        height: 250px;
+        width: 400px;
+    }
+
+    #back-button {
+        margin: 0;
+        padding: 0;
+        margin-left: 100px;
+    }
+
+    #blog-page {
+        padding: 0;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .post-cover {
+        width: 40%;
+        border: 10px solid #51B07A;
+        padding: 0;
+    }
+
+    .img-section {
+        padding: 5%;
+        padding-bottom: 0;
+    }
+
+    .post-title {
+        padding-top: 3%;
+        padding-left: 7%;
+        padding-bottom: 0;
+    }
+
+    .post-text {
+        padding-left: 8%;
+        padding-top: 0px;
+        padding-bottom: 0;
+    }
+
+    .img-source {
+        padding: 5%;
+        padding-left: 8%;
+        padding-top: 1%;
+    }
+
+    #about-me-img {
+        width: 55%;
+        padding: 5%;
+        margin: 0 auto;
+    }
+
+    #about-me-text {
+        padding: 0;
+        padding-bottom: 10%;
+        font-size: 24px;
+        color: white;
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    #contact-img {
+        width: 35%;
+        padding-left: 50px;
+    }
+
+    #contact-header {
+        padding: 1%;
+    }
+
+    #contact-box {
+        margin: 0 auto;
+        width: 40%;
+        padding: 5%;
+    }
+
+    #contact-text {
+        padding: 5%;
+        margin: 0 auto;
+        font-size: 24px;
+    }
+}
